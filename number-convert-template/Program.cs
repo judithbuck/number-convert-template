@@ -4,14 +4,22 @@
     {
         static void Main(string[] args)
         {
-            //user input of a denary value
-            Console.WriteLine("");
+            //TASK 1: Practice using breakpoints and the locals, watch window (F5 to start debugging, F11 to single step through code)
+            int myInt = 0; //just for testing single stepping
+            string myString = "12"; //watch cast from string to int
+            int myStringAsInt = Convert.ToInt32(myString); //watch me cast from string to int
 
-            //base to convert to as a user input
+            //TASK 2: I nsert a string at the start of another string
+            string myString2 = "World";
+            string myString3 = "Hello";
+            string myNewString = String.Empty;  // insert myString3 at the start of myString2 to populate myNewString
 
-            //convert the number to the given base
 
-            //output result
+
+            //TASK 4: Main Challenge: convert denary number into binary
+            // use 'divide by' method and the 'helper' methods practised in Tasks 1 and 2 above
+
+            //CODE GOES HERE
 
         }
     }
